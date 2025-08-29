@@ -1,0 +1,38 @@
+[
+  {
+    "email": "admin@gmail.com",
+    "password": "$2b$10$r/ZXlFHmvYIDmPYmm3UHf.dHG.LTMvdtFSgbXwEadGSeQXEK4NrwS"
+  },
+  {
+    "email": "ksone-manager@gmail.com",
+    "password": "$2b$10$tSmHkJAi129A/ii8Q3iMVu37mYQw0t.HwmsXrnCfRBuNcI4n7Y.7S"
+  },
+  {
+    "email": "manager@gmail.com",
+    "password": "$2b$10$6p6.cULnJnuY.c7keGS7au5lCrUhEf4AoK1L.vt9ne1gpex7ZJaU2"
+  },
+  {
+    "email": "admin@gmail.com",
+    "password": "$2b$10$JrdWkbnPLDam99k79XSU6e3ESbTOdFTBttTxz9E51VlmgsIBHH35m"
+  },
+  {
+    "email": "spiderman@gmail.com",
+    "password": "$2b$10$OXmBb20KJLd4XPLAFxGwFOvhRnjzIW3I/HNwURU6D8qsJmhBJSx2G"
+  },
+  {
+    "email": "user@nextmail.com",
+    "password": "$2b$10$IA7I6tN8ZGTvxrULSWIbWOtCDxhMFtbCwAGClKyr4H/zcexRVlKCq"
+  },
+  {
+    "email": "pprd@gmail.com",
+    "password": "$2b$10$xkrrDbD/d3FSZGs6v8GEJ.tj7ud2lgzZYoudybexXqAKIRj/a73LS"
+  },
+  {
+    "email": "ironman@gmail.com",
+    "password": "$2b$10$2cupCwP4ZyGp9GZQcABO5.JUcjbP1.BoCpSmq2CTlNghAhFxxWpyy"
+  },
+  {
+    "email": "jonny@gamil.com",
+    "password": "$2b$10$ECuZPBQbNBH1n5gMqgeKU.KknfJFjVjfpgKW9whUAQKTdvI/L6PFy"
+  }
+]
