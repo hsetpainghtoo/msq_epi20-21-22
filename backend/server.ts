@@ -15,7 +15,7 @@ app.use(cors());
 //Load user data from user.json file (create the file if it doesn't exist)
 let users: {email:string; password:string}[] = [];
 try{
-    const userData = fs.readFileSync("./backend/data/users.json", "utf-8")
+    const userData = fs.readFileSync("./data/users.json", "utf-8")
     users = JSON.parse(userData);
 }catch(e){
     users = [];
@@ -47,7 +47,7 @@ app.post("/register", (req: Request, res: Response) => {
   users.push(newUser);
 
   // Save the updated user to user.json
-  fs.writeFileSync("./backend/data/users.json", JSON.stringify(users, null, 2)); //users နေရာမှာထည့်ချင်တဲ့ Data, ဘယ်လို Type မျိုး Replace လုပ်ချင်လဲ လုပ်လို့ရ, JSON type ပြောင်းထားတာကို ဖတ်လို့လွယ်အောင် Space ခြားပေးတာ (Epi 13 => 1:16:30)
+  fs.writeFileSync("./data/users.json", JSON.stringify(users, null, 2)); //users နေရာမှာထည့်ချင်တဲ့ Data, ဘယ်လို Type မျိုး Replace လုပ်ချင်လဲ လုပ်လို့ရ, JSON type ပြောင်းထားတာကို ဖတ်လို့လွယ်အောင် Space ခြားပေးတာ (Epi 13 => 1:16:30)
 
   res.status(201).json({ message: "User Registered Successfully" });
 });

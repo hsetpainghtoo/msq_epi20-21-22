@@ -34,5 +34,13 @@
   {
     "email": "jonny@gamil.com",
     "password": "$2b$10$ECuZPBQbNBH1n5gMqgeKU.KknfJFjVjfpgKW9whUAQKTdvI/L6PFy"
+  },
+  {
+    "email": "manager@gmail.com",
+    "password": "$2b$10$cFYCE2ZMxs0ET7ZwHAP.A.uSF.GjyK2erfMp9HdIrp05.Eiiei8jq"
+  },
+  {
+    "email": "manager@gmail.com",
+    "password": "$2b$10$VrWko/HpyTtMffAtNC/e8uv5UcIQIynwODVeGxYx92TWlgSp9KFSu"
   }
 ]
